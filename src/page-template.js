@@ -1,3 +1,9 @@
+const inquirer = require('inquirer');
+
+
+    
+
+
 module.exports = (name, github) => {
     return `
     <!DOCTYPE html>
@@ -17,4 +23,18 @@ module.exports = (name, github) => {
     </html>
     `;
   };
+
+  inquirer.prompt([
+    {
+      type: 'input',
+      name: 'first_name',
+      message: "What's your first name",
+    },
+    {
+      type: 'input',
+      name: 'last_name',
+      message: "What's your last name",
+      default() {
+        return 'Sklar';
+      }}]);
   
