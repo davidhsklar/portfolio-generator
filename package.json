@@ -1,27 +1,19 @@
 {
-  "name": "portfolio_generator",
+  "name": "project",
   "version": "1.0.0",
-  "description": "this an app that generates a portfolio",
+  "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidhsklar/portfolio-generator.git"
-  },
-  "keywords": [
-    "david",
-    "sklar"
-  ],
-  "author": "David Sklar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/davidhsklar/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/davidhsklar/portfolio-generator#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.2"
-  },
-  "devDependencies": {}
+    "inquirer": "^7.0.3"
+  }
 }
