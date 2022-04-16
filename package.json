@@ -22,5 +22,6 @@
   "homepage": "https://github.com/davidhsklar/portfolio-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.2"
-  }
+  },
+  "devDependencies": {}
 }
